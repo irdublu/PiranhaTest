@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template", "..\Template\Template.csproj", "{567B6641-97EF-4AAC-80B1-B3AF2DAA3AEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiranhaTest", "PiranhaTest\PiranhaTest.csproj", "{AC6BF5B5-2FD7-47A5-94F7-4A6A24FDF547}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{567B6641-97EF-4AAC-80B1-B3AF2DAA3AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567B6641-97EF-4AAC-80B1-B3AF2DAA3AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567B6641-97EF-4AAC-80B1-B3AF2DAA3AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567B6641-97EF-4AAC-80B1-B3AF2DAA3AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6BF5B5-2FD7-47A5-94F7-4A6A24FDF547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6BF5B5-2FD7-47A5-94F7-4A6A24FDF547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6BF5B5-2FD7-47A5-94F7-4A6A24FDF547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6BF5B5-2FD7-47A5-94F7-4A6A24FDF547}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21FE199E-088B-448F-905A-9E02089F3075}
+	EndGlobalSection
+EndGlobal

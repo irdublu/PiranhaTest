@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\**" />
+    <Compile Remove="Models\Content\**" />
+    <Compile Remove="seed\**" />
+    <Compile Remove="Views\**" />
+    <Content Remove="Controllers\**" />
+    <Content Remove="Models\Content\**" />
+    <Content Remove="seed\**" />
+    <Content Remove="Views\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <EmbeddedResource Remove="Models\Content\**" />
+    <EmbeddedResource Remove="seed\**" />
+    <EmbeddedResource Remove="Views\**" />
+    <None Remove="Controllers\**" />
+    <None Remove="Models\Content\**" />
+    <None Remove="seed\**" />
+    <None Remove="Views\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Content.cs" />
+    <Compile Remove="Models\GenericContent.cs" />
+    <Compile Remove="Models\ICategorizedContent.cs" />
+    <Compile Remove="Models\StandardSite.cs" />
+    <Compile Remove="Pages\Index.cshtml.cs" />
+    <Compile Remove="SimplePage.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Piranha" Version="8.4.2" />
+    <PackageReference Include="Piranha.AspNetCore" Version="8.4.1" />
+    <PackageReference Include="Piranha.AspNetCore.Identity.SQLite" Version="8.4.0" />
+    <PackageReference Include="Piranha.AttributeBuilder" Version="8.4.0" />
+    <PackageReference Include="Piranha.Data.EF.SQLite" Version="8.4.0" />
+    <PackageReference Include="Piranha.ImageSharp" Version="8.4.0" />
+    <PackageReference Include="Piranha.Local.FileStorage" Version="8.4.0" />
+    <PackageReference Include="Piranha.Manager" Version="8.4.2" />
+    <PackageReference Include="Piranha.Manager.Summernote" Version="8.4.0" />
+    <PackageReference Include="Piranha.Manager.TinyMCE" Version="8.4.1" />
+  </ItemGroup>
+
+</Project>
